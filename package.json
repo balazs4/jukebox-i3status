@@ -2,10 +2,6 @@
   "name": "jukebox-i3status",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "start": "kifli index.js --broker=mqtt://piserver:1883 --topic '/jukebox/i3status'"
-  },
   "dependencies": {
     "kifli": "^1.0.0"
   }
